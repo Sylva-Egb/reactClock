@@ -1,0 +1,13 @@
+Un exercice d'horloge avec 3 petits carrés un pour l'heure un pour les minutes un pour  les secondes 
+il y a un slidebar dans lequel il y a un bouton reset permettant de ramener le compteur de l'horloge a une valeur
+définie par l'utilisateur en un input sous la forme 00:00:00 et un bouton history permettant d'afficher les 5 dernières 
+valeurs de reset de l'horloge dans un rectangle en dessous du bouton history
+Les 3 carrés seront centrés dans un conteneur nommé conteneur arbitrairement qui a la hauteur de l'écran de l'utilisateur
+ (meme pour un changement dynamique) de hauteur et la largeur doit etre celle disponible sur l'écran
+
+NB La slibar a une hauteur = a celle de l'écran de l'user et une largeur de 350px 
+
+La slidebar et le contener nommé seront "collés horizontalement"
+Au chargement de la page le compteur commence a 1h00min00s 
+A partir de 11h59min59s les 3 carrés prennent un pixel (en haut et en bas) de hauteur chaque 2sec 
+DEADLINE 
