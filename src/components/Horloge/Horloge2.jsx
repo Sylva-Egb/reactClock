@@ -48,7 +48,7 @@ class Horloge2 extends Component {
 
   render() {
     return (
-        <div className="bg-blue-500 flex text-center ml-96 text-white opacity-90 mt-64 rounded-lg text-xl font-serif ">
+        <div className="bg-yellow-800 flex text-center ml-96 text-white opacity-90 my-72 rounded-lg text-xl font-serif ">
             <div className="m-10 p-10 bg-red-900 rounded-md">
                 {this.state.hour}
             </div>

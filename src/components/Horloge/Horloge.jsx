@@ -9,7 +9,7 @@ props = {
   }
 
   return ( 
-    <div className="bg-orange-500 flex">
+    <div className="bg-orange-500">
       <div>
         {props.hour}
       </div>

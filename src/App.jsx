@@ -6,7 +6,7 @@ import Horloge2 from './components/Horloge/Horloge2'
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div className="flex bg-violet-500 max-h-max pb-96 text-2xl" id="App">
+    <div className="flex bg-gray-800 h-screen w-screen text-2xl" id="App">
       <SlideBar/>
       <Horloge2/>
     </div>
